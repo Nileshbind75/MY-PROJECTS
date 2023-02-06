@@ -1,0 +1,45 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow: hidden;
+font-family: 'Poppins', sans-serif;
+}
+
+nav{display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 30px;
+}
+
+ul{display: flex;
+gap: 40px;
+width: 60%;
+}
+
+section{display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+h1{font-size: 70px;
+    line-height: 80px;
+    font-weight: bolder;
+}
+p{padding-top: 20px;
+font-weight: bolder;}
+
+section div button{margin-top: 30px;
+margin-left: 5px;}
+
+button{padding: 10px 17px;
+border-radius: 10px;
+font-weight: normal;
+background-color: rgb(39, 57, 196);
+color: white;
+border: 0px;}
+
+section div img{padding-bottom: 50px;}
+
+a{color: black;}
+
+
