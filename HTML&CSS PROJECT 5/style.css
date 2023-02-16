@@ -1,0 +1,59 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #111827;
+color: white;}
+
+nav{margin: 20px 20px;}
+
+ul{display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 30px;
+}
+
+main{display: flex;
+align-items: center;
+justify-content: center;
+gap: 40px;}
+
+.photo{display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;}
+
+.para{display: grid;}
+
+.pro{margin-left: 110px;}
+
+.proj{margin: 50px;}
+
+footer{display: grid;
+align-items: center;
+justify-content: center;
+margin: 50px;}
+
+.git{font-size: xx-large;
+margin-top: 20px;
+margin-left: 40px;}
+
+.dev{color: yellow;}
+
+u{color: green;}
+
+button{padding: 10px 20px;
+border-radius: 30px;
+background-color: darkorchid;}
+
+@media screen and (max-width: 576px) {
+
+   main{display: grid;}
+
+ .photo{display: grid;}
+}
+
+
+
+
+
